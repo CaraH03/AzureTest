@@ -1,5 +1,4 @@
 <?php
-include("dbconnect.php");
 
 $db = new mysqli(
     'ap-cdbr-azure-east-c.cloudapp.net',
@@ -18,3 +17,4 @@ $result = $db->query($sql_query);
 while($row=$result->fetch_array()){
 echo "<p>{$row['title']}</p>";
 }
+?>
