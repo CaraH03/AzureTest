@@ -10,7 +10,7 @@ if($db->connect_errno){
 }
 
 
-$sql_query="SELECT * FROM superheros WHERE superpower LIKE '%laser%'";
+$sql_query="SELECT * FROM marvelmovies WHERE yearReleased LIKE '%1995%'";
 $result = $db->query($sql_query);
 
 while($row=$result->fetch_array()){
