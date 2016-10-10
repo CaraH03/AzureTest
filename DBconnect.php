@@ -12,7 +12,7 @@ if($db->connect_errno){
 }
 
 
-$sql_query="SELECT * FROM marvelmovies WHERE yearReleased LIKE '%1995%'";
+$sql_query="SELECT * FROM marvelmovies";
 $result = $db->query($sql_query);
 
 while($row=$result->fetch_array()){
