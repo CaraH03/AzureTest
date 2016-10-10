@@ -1,3 +1,4 @@
+<h1>Hello!!</h1>
 <?php
 
 $db = new mysqli(
